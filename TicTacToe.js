@@ -1,5 +1,11 @@
-function createElement(tagName,attributes,...children) {
- let e  = document.createElement(tagName);
+function createElement(type,attributes,...children) {
+   let e;
+   if (typeof type === "string") {
+       e = document.createElement(type);
+   } else {
+       e = new type;
+   }
+
     for(let p in attributes) {
         e.setAttribute(p,attributes[p]);
     }
