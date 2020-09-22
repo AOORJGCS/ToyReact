@@ -4,6 +4,9 @@ function createElement(tagName,attributes,...children) {
         e.setAttribute(p,attributes[p]);
     }
     for(let child of children) { 
+        if(typeof child === "string") {
+            child = document.createTextNode(child);
+        }
         e.appendChild(child);
     }
 
