@@ -1,23 +1,14 @@
 {
-  "name": "toyreact",
+  "name": "toy-react",
   "version": "1.0.0",
   "description": "",
-  "main": "TicTacToe.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AOORJGCS/ToyReact.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AOORJGCS/ToyReact/issues"
-  },
-  "homepage": "https://github.com/AOORJGCS/ToyReact#readme",
-  "dependencies": {
+  "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/plugin-transform-react-jsx": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
